@@ -1,0 +1,3 @@
+TODO: Task 1 - Write the mongo import command here
+Local import command: mongoimport -hlocalhost --port=27017 -drestaurants -crestaurants --jsonArray restaurants.json
+railway import: 
