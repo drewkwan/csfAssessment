@@ -13,7 +13,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 const appRoutes: Routes = [
   {path: '', component: CuisineListComponent},
   {path:':cuisine/restaurants', component: RestaurantCuisineComponent},
-  {path:':cuisine/restaurants/:name', component:RestaurantDetailsComponent}
+  {path:':cuisine/restaurants/:name', component:RestaurantDetailsComponent},
+  {path: '**', redirectTo: '', pathMatch: 'full'}
 ]
 
 @NgModule({
